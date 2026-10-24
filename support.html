@@ -36,7 +36,10 @@
     <h2>常见问题</h2>
 
     <p class="q">为什么有些打鼾没有被记录?</p>
-    <p>检测以「响度」为主。非常轻微、平稳的鼾声可能低于触发门槛而被漏掉。可在「设置 → 检测灵敏度」中调到更高灵敏度。</p>
+    <p>App 会结合响度、呼吸节奏和声音的频谱来识别鼾声(鼾声以低频为主)。为了不把呼吸声、说话声误算成鼾声,非常轻微的鼾声不会计入;一串短促鼾声的头一两声也可能不计入。把手机放在枕边 0.5 米以内效果最好,也可以在「设置 → 检测灵敏度」中调高。</p>
+
+    <p class="q">为什么快醒时的声音没有被记录?</p>
+    <p>整夜录音时,点停止前的最后 2 分钟视为醒来时间(说话、翻身、拿手机),这段时间的声音不计入打鼾。不到 1 小时的录音不受此限。</p>
 
     <p class="q">录音会上传到云端吗?</p>
     <p>不会。所有音频和数据只保存在你的设备本地——App 不联网、不上传、不收集任何个人信息。</p>
@@ -45,10 +48,10 @@
     <p>在「设置」中可以清除音频片段、按时间删除记录,或清除全部数据;删除 App 也会一并移除设备上的所有内容。</p>
 
     <p class="q">「整夜录音」很占空间吗?</p>
-    <p>会占一些(约每小时十几 MB)。可在「设置」里随时清理音频。不需要时可关闭该开关。</p>
+    <p>会占一些(约每小时十几 MB)。可在「设置」里随时清理音频,或开启「自动清理音频」只保留最近一段时间的录音(报告会一直保留)。不需要时可关闭该开关。</p>
 
     <p class="q">锁屏 / 后台还能监测吗?</p>
-    <p>可以。开始监测后,App 会在后台持续运行直到你停止。建议睡前把手机放在床头、不要被被子遮住麦克风。</p>
+    <p>可以。开始监测后,App 会在后台持续运行直到你停止。中途被来电、闹钟打断,结束后会自动恢复录音;即使 App 被系统意外关闭,下次打开时也会保留当晚已经记录的内容。建议睡前把手机放在床头、不要被被子遮住麦克风,并连接电源。</p>
 
     <p class="q">需要注册账号吗?</p>
     <p>不需要。打开即用,无需登录。</p>
@@ -70,7 +73,10 @@
     <h2>FAQ</h2>
 
     <p class="q">Why weren't some snores recorded?</p>
-    <p>Detection is loudness-based. Very soft, steady snoring can fall below the trigger threshold and be missed. You can raise sensitivity in Settings → Detection Sensitivity.</p>
+    <p>Snoring is recognized from loudness, breathing rhythm and the sound's spectrum (snoring is mostly low-frequency). To avoid counting breathing or talking as snoring, very faint snores aren't counted, and the first one or two snores of a series may be missed. Keep the phone within about half a meter of your pillow for best results, or raise Settings → Detection Sensitivity.</p>
+
+    <p class="q">Why weren't sounds right before I woke up recorded?</p>
+    <p>On an overnight recording, the last 2 minutes before you tap Stop count as waking up (talking, moving, reaching for the phone), so sounds there aren't counted as snoring. Recordings shorter than an hour keep everything.</p>
 
     <p class="q">Is my audio uploaded to the cloud?</p>
     <p>No. All audio and data stay only on your device — the app makes no network connections, uploads nothing, and collects no personal information.</p>
@@ -79,10 +85,10 @@
     <p>In Settings you can clear audio clips, delete records by date, or erase all data. Deleting the app also removes everything stored on your device.</p>
 
     <p class="q">Does "record the whole night" use a lot of space?</p>
-    <p>Some — roughly 15 MB per hour. You can clear audio anytime in Settings, or leave the toggle off.</p>
+    <p>Some — roughly 15 MB per hour. You can clear audio anytime in Settings, or turn on auto-clean to keep only recent recordings (reports are always kept). Or leave the toggle off.</p>
 
     <p class="q">Does it work locked / in the background?</p>
-    <p>Yes. Once a session starts, the app keeps running in the background until you stop it. Place the phone near your head and keep the mic unobstructed.</p>
+    <p>Yes. Once a session starts, the app keeps running in the background until you stop it. If a call or an alarm interrupts it, recording resumes automatically afterwards; and if the system closes the app unexpectedly, the night recorded so far is kept the next time you open it. Place the phone near your head, keep the mic unobstructed, and plug it in.</p>
 
     <p class="q">Do I need an account?</p>
     <p>No. It works right away, no sign-in.</p>
